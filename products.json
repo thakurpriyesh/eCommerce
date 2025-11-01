@@ -1,0 +1,258 @@
+[
+  {
+    "id": 1,
+    "name": "Stylish T-Shirt",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "price": 25.99,
+    "description": "A comfortable and stylish t-shirt made from 100% organic cotton. Perfect for everyday wear, offering a soft feel and a classic fit. Available in various colors.",
+    "specifications": {
+      "Material": "100% Organic Cotton",
+      "Color": "Black, White, Gray",
+      "Sizes": "S, M, L, XL"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Classic Jeans",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "price": 59.99,
+    "description": "Durable denim jeans with a timeless design. Features a straight-leg cut and multiple pockets. These jeans are built to last and become more comfortable with every wash.",
+    "specifications": {
+      "Material": "Denim",
+      "Color": "Blue, Black",
+      "Sizes": "28, 30, 32, 34, 36"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Leather Wallet",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "price": 35.50,
+    "description": "Handcrafted leather wallet with multiple card slots and a dedicated cash compartment. This wallet ages beautifully, developing a unique patina over time.",
+    "specifications": {
+      "Material": "Genuine Leather",
+      "Color": "Brown, Black",
+      "Card Slots": "6"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Running Shoes",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "price": 75.00,
+    "description": "Lightweight and breathable running shoes designed for maximum comfort and performance. Features a cushioned sole for impact absorption, making them perfect for jogging or training.",
+    "specifications": {
+      "Material": "Mesh, Rubber",
+      "Color": "White, Black, Red",
+      "Sizes": "7-12"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Smart Watch",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "price": 199.99,
+    "description": "Track your fitness, notifications, and more with this sleek and modern smartwatch. Features a vibrant display, heart rate monitor, and a long-lasting battery life.",
+    "specifications": {
+      "Connectivity": "Bluetooth 5.0",
+      "Battery Life": "Up to 7 days",
+      "Compatibility": "iOS & Android"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Sunglasses",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "price": 15.99,
+    "description": "Stylish sunglasses with UV protection. Perfect for a sunny day at the beach or a drive. The lightweight frame ensures comfort for all-day wear.",
+    "specifications": {
+      "Frame Material": "Plastic",
+      "Lens Type": "UV400 Protected",
+      "Color": "Black, Tortoiseshell"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Backpack",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "price": 45.75,
+    "description": "Spacious and durable backpack with multiple compartments for your laptop, books, and other essentials. Padded straps provide comfort for carrying heavy loads.",
+    "specifications": {
+      "Material": "Polyester",
+      "Capacity": "25 Liters",
+      "Features": "Laptop Sleeve (15-inch)"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Coffee Mug",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "price": 9.50,
+    "description": "Ceramic coffee mug with a unique design. Holds up to 12 ounces of your favorite hot beverage. Dishwasher and microwave safe.",
+    "specifications": {
+      "Material": "Ceramic",
+      "Capacity": "12 oz",
+      "Care": "Dishwasher Safe"
+    }
+  },
+  {
+    "id": 1,
+    "name": "Stylish T-Shirt",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "price": 25.99,
+    "description": "A comfortable and stylish t-shirt made from 100% organic cotton. Perfect for everyday wear, offering a soft feel and a classic fit. Available in various colors.",
+    "specifications": {
+      "Material": "100% Organic Cotton",
+      "Color": "Black, White, Gray",
+      "Sizes": "S, M, L, XL"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Classic Jeans",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "price": 59.99,
+    "description": "Durable denim jeans with a timeless design. Features a straight-leg cut and multiple pockets. These jeans are built to last and become more comfortable with every wash.",
+    "specifications": {
+      "Material": "Denim",
+      "Color": "Blue, Black",
+      "Sizes": "28, 30, 32, 34, 36"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Leather Wallet",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "price": 35.50,
+    "description": "Handcrafted leather wallet with multiple card slots and a dedicated cash compartment. This wallet ages beautifully, developing a unique patina over time.",
+    "specifications": {
+      "Material": "Genuine Leather",
+      "Color": "Brown, Black",
+      "Card Slots": "6"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Running Shoes",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "price": 75.00,
+    "description": "Lightweight and breathable running shoes designed for maximum comfort and performance. Features a cushioned sole for impact absorption, making them perfect for jogging or training.",
+    "specifications": {
+      "Material": "Mesh, Rubber",
+      "Color": "White, Black, Red",
+      "Sizes": "7-12"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Smart Watch",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "price": 199.99,
+    "description": "Track your fitness, notifications, and more with this sleek and modern smartwatch. Features a vibrant display, heart rate monitor, and a long-lasting battery life.",
+    "specifications": {
+      "Connectivity": "Bluetooth 5.0",
+      "Battery Life": "Up to 7 days",
+      "Compatibility": "iOS & Android"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Sunglasses",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "price": 15.99,
+    "description": "Stylish sunglasses with UV protection. Perfect for a sunny day at the beach or a drive. The lightweight frame ensures comfort for all-day wear.",
+    "specifications": {
+      "Frame Material": "Plastic",
+      "Lens Type": "UV400 Protected",
+      "Color": "Black, Tortoiseshell"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Backpack",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "price": 45.75,
+    "description": "Spacious and durable backpack with multiple compartments for your laptop, books, and other essentials. Padded straps provide comfort for carrying heavy loads.",
+    "specifications": {
+      "Material": "Polyester",
+      "Capacity": "25 Liters",
+      "Features": "Laptop Sleeve (15-inch)"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Coffee Mug",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "price": 9.50,
+    "description": "Ceramic coffee mug with a unique design. Holds up to 12 ounces of your favorite hot beverage. Dishwasher and microwave safe.",
+    "specifications": {
+      "Material": "Ceramic",
+      "Capacity": "12 oz",
+      "Care": "Dishwasher Safe"
+    }
+  }
+]

@@ -1,0 +1,370 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+.navbar .logo {
+    font-size: 3rem;
+    font-weight: bold;
+    flex: 1;
+}
+
+.navbar .search-bar {
+    display: flex;
+    flex: 2;
+    border: none;
+    height: 40px;
+    justify-content: center;
+}
+.navbar .search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 60%;
+}
+
+.navbar .search-bar button {
+    padding: 8px 12px;
+    border: 3px solid white;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+
+}
+
+.navbar .nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.15rem;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 3px;
+}
+
+.navbar .nav-links a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    transform: scaleX(0);
+    transition: transform 0.28s ease-in-out;
+}
+
+.navbar .nav-links a:hover::after {
+    transform: scaleX(1);
+}
+
+.navbar .nav-links i {
+    font-size: 1.2rem;
+}
+
+.container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    overflow: hidden;
+    color: #000000;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card h3 {
+    margin: 15px 0 5px;
+    font-size: 1.2rem;
+}
+
+.product-card p {
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.product-card .actions {
+    padding: 0 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-card button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart {
+    background-color: #000000;
+    color: #ffffff;
+    margin-left: 50px;
+    height: 40px;
+}
+
+/* here */
+.wishlist-btn {
+    background-color: #000000;
+    border-radius: 50%;
+    padding: 5px;
+    transition: all 0.2s;
+    margin-right: 50px;
+    height: 40px;
+}
+
+.wishlist-btn i {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.wishlist-btn i.active {
+    color: #ff0019;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+.wishlist-btn:hover {
+    color: #ff0019;
+}
+
+/* here end */
+.about-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #000000;
+    color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+/* Product Page Styles */
+.product-detail-container {
+    display: flex;
+    gap: 40px;
+}
+
+.product-image-gallery {
+    width: 50%;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.remove-from-wishlist {
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-right: 30px;
+}
+
+.thumbnail-container {
+    display: flex;
+    gap: 10px;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.thumbnail.active {
+    border-color: #000000;
+}
+
+.product-detail-info {
+    width: 50%;
+}
+
+.product-detail-info h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.product-detail-info h2 {
+    font-size: 1.8rem;
+    color: #28a745;
+    margin: 10px 0;
+}
+
+.product-detail-info .buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.product-detail-info .add-to-cart {
+    flex: 1;
+    padding: 15px;
+    font-size: 1.1rem;
+}
+
+.product-detail-info .wishlist-btn {
+    padding: 15px;
+    font-size: 1.5rem;
+    width: auto;
+}
+
+.specifications {
+    margin-top: 30px;
+}
+
+.specifications table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.specifications td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Cart & Wishlist Specific Styles */
+#cart-items,
+#wishlist-items {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item,
+.wishlist-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.cart-item {
+    border-radius: 5px;
+}
+
+.cart-item img {
+    border-radius: 5px;
+}
+
+.cart-item img,
+.wishlist-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.cart-item-info,
+.wishlist-item-info {
+    flex-grow: 1;
+}
+
+.quantity-controls button {
+    padding: 5px 10px;
+    border: 1px solid #ffffff;
+    background-color: #000000;
+    color: white;
+    height: 30px;
+    border-radius: 3px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.increase-quantity,
+.decrease-quantity {
+    margin: 0 5px;
+}
+
+.remove-from-cart {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+    height: 30px;
+}
+
+#checkout-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.add-to-car{
+    background-color: black;
+    height: 40px;
+    width: 525px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.wishlist-bt{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.buttonsa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
