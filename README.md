@@ -66,4 +66,3 @@ You must run it from a **local server**. The easiest way is:
     npx serve
     ```
 4.  Open `http://localhost:8000` (or the port specified) in your browser.
-````
