@@ -11,12 +11,17 @@ body {
     background-color: #000000;
     color: #fff;
     padding: 1rem 2rem;
+    /* Added for responsive stacking */
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .navbar .logo {
     font-size: 3rem;
     font-weight: bold;
     flex: 1;
+    /* Ensure logo doesn't shrink too much */
+    min-width: 150px;
 }
 
 .navbar .search-bar {
@@ -25,6 +30,8 @@ body {
     border: none;
     height: 40px;
     justify-content: center;
+    /* Allow search bar to shrink */
+    min-width: 250px;
 }
 .navbar .search-bar input {
     padding: 8px;
@@ -46,6 +53,10 @@ body {
 .navbar .nav-links {
     flex: 1;
     text-align: right;
+    /* Ensure links can shrink/wrap */
+    min-width: 200px;
+    /* Add this line to prevent links from stacking */
+    white-space: nowrap;
 }
 
 .navbar .nav-links a {
@@ -88,6 +99,7 @@ body {
 
 .product-grid {
     display: grid;
+    /* This grid is already responsive! */
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
 }
@@ -127,7 +139,7 @@ body {
 .product-card .actions {
     padding: 0 15px 15px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around; /* Changed from space-between */
     align-items: center;
 }
 
@@ -141,7 +153,7 @@ body {
 .add-to-cart {
     background-color: #000000;
     color: #ffffff;
-    margin-left: 50px;
+    /* margin-left: 50px; Removed */
     height: 40px;
 }
 
@@ -151,8 +163,10 @@ body {
     border-radius: 50%;
     padding: 5px;
     transition: all 0.2s;
-    margin-right: 50px;
+    /* margin-right: 50px; Removed */
     height: 40px;
+    /* Set fixed width for better alignment */
+    width: 40px;
 }
 
 .wishlist-btn i {
@@ -207,6 +221,8 @@ body {
 .thumbnail-container {
     display: flex;
     gap: 10px;
+    /* Allow thumbnails to wrap on small screens */
+    flex-wrap: wrap;
 }
 
 .thumbnail {
@@ -285,7 +301,9 @@ body {
     border-bottom: 1px solid #ddd;
     background-color: #fff;
     margin-bottom: 10px;
-
+    /* Allow wrapping on small screens */
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .cart-item {
@@ -307,6 +325,13 @@ body {
 .cart-item-info,
 .wishlist-item-info {
     flex-grow: 1;
+    /* Ensure it doesn't get too small */
+    min-width: 150px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
 }
 
 .quantity-controls button {
@@ -346,7 +371,7 @@ body {
     font-size: 1.2rem;
     cursor: pointer;
 }
-.add-to-car{
+.add-to-car{ /* This class is now unused, but we leave it in case */
     background-color: black;
     height: 40px;
     width: 525px;
@@ -354,7 +379,7 @@ body {
     border: none;
     border-radius: 5px;
 }
-.wishlist-bt{
+.wishlist-bt{ /* This class is now unused, but we leave it in case */
     background-color: black;
     height: 40px;
     width: 40px;
@@ -364,7 +389,172 @@ body {
 }
 .buttonsa{
     display: flex;
+    /* Allow buttons to wrap */
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    gap: 10px; /* Add gap for wrapping */
 }
+
+/* --- Notification System --- */
+#notification-container {
+    position: fixed;
+    top: 80px; /* Below navbar */
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* Ensure it doesn't overflow on mobile */
+    width: calc(100% - 40px);
+    max-width: 300px;
+}
+
+.notification {
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideIn 0.5s forwards, fadeOut 0.5s 2.5s forwards;
+}
+
+.notification.success {
+    background-color: #28a745; /* Green */
+}
+
+.notification.error {
+    background-color: #dc3545; /* Red */
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
+/*
+========================================
+    RESPONSIVE MEDIA QUERIES
+========================================
+*/
+
+/* --- Tablet (e.g., <= 992px) --- */
+@media (max-width: 992px) {
+    .navbar {
+        /* Stack logo/search/links vertically */
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .navbar .logo {
+        text-align: center;
+    }
+
+    .navbar .search-bar {
+        width: 100%;
+    }
+    
+    .navbar .search-bar input {
+        width: 80%; /* Give input more space */
+    }
+
+    .navbar .nav-links {
+        text-align: center;
+        margin-top: 1rem;
+        /* Add this to allow links to wrap in the stacked mobile view */
+        white-space: normal;
+    }
+
+    .navbar .nav-links a {
+        margin: 0 10px; /* Reduce margin */
+    }
+
+    .product-detail-container {
+        /* Stack image and info vertically */
+        flex-direction: column;
+    }
+
+    .product-image-gallery,
+    .product-detail-info {
+        width: 100%; /* Take full width */
+    }
+}
+
+
+/* --- Mobile (e.g., <= 768px) --- */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem; /* Reduce padding on mobile */
+    }
+
+    .cart-item {
+        /* Stack cart item content */
+        flex-direction: column;
+        align-items: flex-start; /* Align to the left */
+        gap: 0.5rem;
+    }
+
+    .cart-item-info {
+        /* Remove extra right margin */
+        margin-right: 0;
+    }
+
+    .quantity-controls,
+    .remove-from-cart {
+        margin-top: 10px;
+    }
+    
+    .product-detail-info h1 {
+        font-size: 2rem; /* Reduce heading size */
+    }
+    
+    .buttonsa .add-to-cart,
+    .buttonsa .wishlist-btn {
+        width: 100%; /* Make buttons full-width */
+        flex-grow: 1;
+    }
+}
+
+
+/* --- Small Mobile (e.g., <= 480px) --- */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 1rem; /* Reduce navbar padding */
+    }
+    
+    .navbar .logo {
+        font-size: 2rem; /* Reduce logo size */
+    }
+
+    .navbar .nav-links a {
+        font-size: 1rem;
+        margin: 0 5px;
+    }
+
+    .product-grid {
+        /* Force single column */
+        grid-template-columns: 1fr;
+    }
+
+    #notification-container {
+        /* Adjust for smaller screens */
+        top: 20px;
+        right: 10px;
+        width: calc(100% - 20px);
+    }
+}
+
+/* Missing closing brace from original file */
+/* } */

@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-commerce Store</title>
+    <title>GrabIt!</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 <body>
     <header class="navbar">
-        <div class="logo">My Shop</div>
+        <div class="logo">GrabIt!</div>
         
         <div class="search-bar">
             <input type="text" id="search-input" placeholder="Search products...">
@@ -28,7 +28,8 @@
     <main class="container">
         <h1>Featured Products</h1>
         <div class="product-grid" id="product-list">
-            </div>
+            <!-- Products will be injected here by script.js -->
+        </div>
     </main>
 
     <footer class="about-section">
@@ -36,6 +37,10 @@
         <p>We are dedicated to providing high-quality products at affordable prices. Our mission is to make shopping easy and enjoyable for everyone.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Notification container for custom alerts -->
+    <div id="notification-container"></div>
+
+    <script src="script.js?v=2"></script>
 </body>
 </html>
+
